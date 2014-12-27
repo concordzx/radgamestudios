@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Radgamestudios</title>
+  <title>Rad Game Studios</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>RAD Games</title>
+
+<center><img style="margin-bottom:5px" src="images/rad_logo.png" width="187" height="150" alt="radlogo"></center>
+
+<div align="center" class="media">
+    <a target="_blank" href="https://twitter.com/RadGameStudios"><img class="twitter" src="images/media_icons/twitter.png" width="30" height="30" alt=""/></a>
+    <a target="_blank" href="https://www.facebook.com/RadGameStudios"><img class="facebook" src="images/media_icons/facebook.png" width="30" height="30" alt=""/></a>
+    <a target="_blank" href="https://plus.google.com/u/0/communities/109107277594254146274"><img class="googleplus" src="images/media_icons/googleplus.png" width="30" height="30" alt=""/></a>
+</div>
+
+<nav>
+  <ul><a href="index.html"><li>Home</li></a>
+  	<a href="about.html"><li>About</li></a>
+  	<li>
+      <a href="games.html">Games
+   	  <ul>
+      	<a href="flappyforest.html"><li>Flappy Forest</li></a>
+      	<a href="meowlicious.html"><li>Meowlicious</li></a>
+        <a href="warriorguild.html"><li>Warrior Guild</li></a>
+      </ul>
+  	</li></a>
+  	<a href="forums.html"><li>Forums</li></a>
+  	<a href="support.html"><li>Support</li></a>
+  </ul>
+</nav>
 </head>
+
 <body>
-
 <%= yield %>
-
 </body>
+
 </html>
