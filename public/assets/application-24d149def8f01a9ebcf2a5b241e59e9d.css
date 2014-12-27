@@ -1,0 +1,144 @@
+.media img{
+	padding: 5px 5px 5px;
+	border: 3px solid #FCFCFC;
+	border-radius: 13px;
+	background-color: #3C3C3C;
+}
+.media .twitter:hover {
+	background-color:#3899FF;
+}
+.media .facebook:hover {
+	background-color:#0042B7;
+}
+.media .googleplus:hover {
+	background-color:#E13437;
+}
+
+body {
+	background-color: #161616;
+}
+
+p {
+	font: 1.1em/18px sans-serif;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+	margin: 0px 150px 0px;
+}
+
+h1 {
+	font: bold 2em/18px sans-serif;
+	Color: #224392;
+	text-align:center;
+}
+
+h2 {
+	Color: #000000;
+	text-align:center;
+	font: bold 1.5em/18px sans-serif;
+	padding: 10px 10px 10px;
+	border:thick solid;
+	border-radius: 1em;
+}
+h2.flappyforest {
+	background-color:#346EBD;
+	border-color:#252525;
+}
+h2.flappyforest:hover {
+	background-color:#4A77F1;
+}
+h2.meowlicous {
+	background-color:#00AF8B;
+	border-color:#FF21D4;
+}
+h2.meowlicous:hover {
+	background-color:#00E3A0;
+}
+h2.warriorguild {
+	background-color:#863E00;
+	border-color:#000;
+}
+h2.warriorguild:hover {
+	background-color:#;
+}
+
+h3 {
+	text-align:center;
+	font: bold 1.4em/18px sans-serif;
+	margin-bottom:10px;
+}
+
+a {
+	text-decoration: none;
+	Color: #224392;
+}
+
+nav {
+  padding: 20px 50px 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	Color: #fff;
+}
+
+nav ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+}
+
+nav ul li {
+  font: bold 20px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 45px;
+  background: #4C4C4C;
+  cursor: pointer;
+  color: #fff;
+}
+
+nav ul li:hover > a {
+	color: #000;
+}
+
+nav ul li:hover {
+  background: #273C6C;
+  color: #000;
+}
+nav ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 200px;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li ul li { 
+  background: #909090; 
+  display: block; 
+  color: #fff;
+  font: bold 17px/18px sans-serif;
+}
+nav ul li ul li:hover { background: #4B5D8F; }
+nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.body {
+	box-shadow: 10px 10px 5px #232323;
+	background-color: #DCDCDC;
+	color: #000;
+	margin: 40px auto 0;
+	width: 1000px;
+	padding: 5px 0px 30px;
+}
