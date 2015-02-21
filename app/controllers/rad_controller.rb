@@ -14,12 +14,12 @@ class RadController < ApplicationController
   def support
   end
 
-  def warriorguild
-  end
-
-  def meowlicious
-  end
-
   def flappyforest
+  end
+  
+  def galaxyinvaders
+  end
+  
+  def warriorguild
   end
 end

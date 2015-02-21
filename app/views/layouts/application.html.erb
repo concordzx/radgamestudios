@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "headstyle", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "bodystyle", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "gamelinks", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   
-  <title>Rad Game Studios</title>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="shortcut icon" href="images/favicon.ico" >
-<title>RAD Games</title>
+<link rel="shortcut icon" href="images/favicon.ico" >
 
-<center><img style="margin-bottom:5px" src="images/rad_logo.png" width="187" height="150" alt="radlogo"></center>
+<img class="center" style="margin-bottom:5px" src="images/rad_logo.png" width="187" height="150" alt="The current logo for Rad Game Studios."/>
 
 <div align="center" class="media">
-    <a target="_blank" href="https://twitter.com/RadGameStudios"><img class="twitter" src="images/media_icons/twitter.png" width="30" height="30" alt=""/></a>
-    <a target="_blank" href="https://www.facebook.com/RadGameStudios"><img class="facebook" src="images/media_icons/facebook.png" width="30" height="30" alt=""/></a>
-    <a target="_blank" href="https://plus.google.com/u/0/communities/109107277594254146274"><img class="googleplus" src="images/media_icons/googleplus.png" width="30" height="30" alt=""/></a>
+    <a title="Find us on Twitter" target="_blank" href="https://twitter.com/RadGameStudios"><img class="twitter" src="images/media_icons/twitter.png" width="30" height="30" alt="Click here to find RAD Games on Twitter."/></a>
+    <a title="Find us on Facebook" target="_blank" href="https://www.facebook.com/RadGameStudios"><img class="facebook" src="images/media_icons/facebook.png" width="30" height="30" alt="Click here to find RAD Games on Facebook."/></a>
+    <a title="Find us on Google+" target="_blank" href="https://plus.google.com/u/0/communities/109107277594254146274"><img class="googleplus" src="images/media_icons/googleplus.png" width="30" height="30" alt="Click here to find RAD Games on Google Plus."/></a>
 </div>
 
 <nav>
-  <ul><a href="index.html"><li>Home</li></a>
-  	<a href="about.html"><li>About</li></a>
+  <ul><a title="RAD Home Page" href="index.html"><li>Home</li></a>
+  	<a title="Learn about RAD" href="about.html"><li>About</li></a>
   	<li>
-      <a href="games.html">Games
+      <a title="Go to Games" href="games.html">Games
    	  <ul>
-      	<a href="flappyforest.html"><li>Flappy Forest</li></a>
-        <a href="warriorguild.html"><li>Warrior Guild</li></a>
+      	<a title="Go to Flappy Forest" href="flappyforest.html"><li>Flappy Forest</li></a>
+        <a title="Go to Galaxy Invaders" href="galaxyinvaders.html"><li>Galaxy Invaders</li></a>
+        <a title="Go to Warrior Guild" href="warriorguild.html"><li>Warrior Guild</li></a>
       </ul>
   	</li></a>
-  	<a href="forums.html"><li>Forums</li></a>
-  	<a href="support.html"><li>Support</li></a>
+  	<!--<a title="Go to Forums" href="forums.html"><li>Forums</li></a>             !!FORUMS UNDER CONSTRUCTION!! -->
+  	<a title="Support RAD Games" href="support.html"><li>Support</li></a>
   </ul>
 </nav>
 
+<!--Script for Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-56788184-2', 'auto');
   ga('send', 'pageview');
 

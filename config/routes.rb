@@ -5,6 +5,7 @@ Radgamestudios::Application.routes.draw do
   match '/games',    to: 'rad#games', via: 'get'
   match '/forums',    to: 'rad#forums', via: 'get'
   match '/support',    to: 'rad#support', via: 'get'
-  match '/warriorguild',    to: 'rad#warriorguild', via: 'get'
   match '/flappyforest',    to: 'rad#flappyforest', via: 'get'
+  match '/galaxyinvaders',    to: 'rad#galaxyinvaders', via: 'get'
+  match '/warriorguild',    to: 'rad#warriorguild', via: 'get'
 end
