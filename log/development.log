@@ -11255,3 +11255,57 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 00:39:52
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 00:39:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-24 06:35:43 -0600
+Processing by RadController#index as HTML
+  Rendered rad/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 296ms (Views: 296.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 06:35:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:44 -0600
+
+
+Started GET "/assets/rad.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:44 -0600
+
+
+Started GET "/galaxyinvaders.html" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+Processing by RadController#galaxyinvaders as HTML
+  Rendered rad/galaxyinvaders.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/galaxyinvaders.html" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+Processing by RadController#galaxyinvaders as HTML
+  Rendered rad/galaxyinvaders.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rad.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
