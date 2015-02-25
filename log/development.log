@@ -11309,3 +11309,6 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-24 06:35:55 -0600
+  [1m[36m (171.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (93.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
